@@ -12,6 +12,7 @@ A GitHub-backed learning platform for **Prompt Engineering → Context Engineeri
 - [Reusable prompts for every stage](docs/SESSION_PROMPTS.md)
 - [Lesson writing standard](docs/LEARNING_STANDARD.md)
 - [Architecture decisions](docs/DECISIONS.md)
+- [Research and official guides](docs/RESEARCH_SOURCES.md)
 - [First full lesson](content/lessons/1-1.md)
 
 ## Development

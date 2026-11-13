@@ -17,63 +17,63 @@
 
 **Exit criterion:** A future session can reconstruct goals, state, and next work from GitHub.
 
-**Status at kickoff:** Done
+**Current stage status:** Done
 
 ### Stage 1 — Website MVP and GitHub Pages
 **Deliverables:** Vite + React + TypeScript + Tailwind shell, responsive layout, navigation, deployment workflow
 
 **Exit criterion:** Site builds and renders the dashboard, roadmap and lesson outline without broken navigation.
 
-**Status at kickoff:** In progress
+**Current stage status:** Done (initial version; see enhancement issues)
 
 ### Stage 2 — Learning content publishing
 **Deliverables:** Expand 40 outlines into complete teaching content with examples, labs and checkpoint questions
 
 **Exit criterion:** Each published lesson meets the content quality checklist; no outline is marked complete prematurely.
 
-**Status at kickoff:** Planned
+**Current stage status:** Planned
 
 ### Stage 3 — Jargon reference and search
 **Deliverables:** Glossary of precise engineering terminology and example prompts
 
 **Exit criterion:** Search and categories work; every term has a definition and application.
 
-**Status at kickoff:** In progress
+**Current stage status:** Done (initial version; see enhancement issues)
 
 ### Stage 4 — Interactive labs and assessments
 **Deliverables:** Runnable exercises where feasible, hints, rubric, answer/feedback mechanisms
 
 **Exit criterion:** Question and result states are explicit; incomplete exercises cannot be counted complete.
 
-**Status at kickoff:** Planned
+**Current stage status:** Planned
 
 ### Stage 5 — Durable progress and bookmarks
 **Deliverables:** Local storage initially, export/import, later optional account sync
 
 **Exit criterion:** Progress survives refresh; learners can export and restore it.
 
-**Status at kickoff:** Planned
+**Current stage status:** Planned
 
 ### Stage 6 — GitHub-based content editing
 **Deliverables:** Content schema, preview, versioning and secure authenticated editing
 
 **Exit criterion:** Edits use explicit authorization, produce reviewable commits/PRs, and cannot leak tokens.
 
-**Status at kickoff:** Planned
+**Current stage status:** Planned
 
 ### Stage 7 — Advanced agent engineering laboratory
 **Deliverables:** Agent workflow demonstrations, test traces, safe sample sandboxes
 
 **Exit criterion:** All examples are safe; agents require explicit authorization before risky tool actions.
 
-**Status at kickoff:** Planned
+**Current stage status:** Planned
 
 ### Stage 8 — Release quality and maintenance
 **Deliverables:** Accessibility, tests, performance, SEO, CI and content review
 
 **Exit criterion:** Mobile UX, automated checks, documentation, and deployment status verified.
 
-**Status at kickoff:** Planned
+**Current stage status:** Planned
 
 
 ## Engineering workflow

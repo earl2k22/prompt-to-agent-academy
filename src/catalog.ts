@@ -83,7 +83,7 @@ function parseStages(markdown: string): DevelopmentStage[] {
       title: heading[2],
       deliverables: field(part, 'Deliverables'),
       criterion: field(part, 'Exit criterion'),
-      status: field(part, 'Status at kickoff'),
+      status: field(part, 'Current stage status') || field(part, 'Status at kickoff'),
     }];
   });
 }
