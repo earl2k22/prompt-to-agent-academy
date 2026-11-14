@@ -1,0 +1,24 @@
+{
+  "scanned": "2026-11-15",
+  "findings": {
+    "framework": "React 19 + TypeScript + Vite; package.json:13-27",
+    "fonts": "Inter/system stack in original src/site.css:3, no owned font asset",
+    "palette": "dark navy and mint; original src/site.css:3-20",
+    "motion": "CSS transitions only",
+    "spacing": "hardcoded lengths in original src/site.css",
+    "routing": "hash routes; src/App.tsx:35-36",
+    "content": "catalog sourced from canonical Markdown; src/catalog.ts:1-3"
+  },
+  "preserve": [
+    "curriculum, lesson IDs and publication statuses",
+    "routes, destinations, handlers",
+    "pta.completed.v1 and pta.bookmarks.v1",
+    "GitHub Pages base path and workflow"
+  ],
+  "introduce": [
+    "Hallmark Dose app system",
+    "shared tokens and base",
+    "curriculum index",
+    "accessible control states"
+  ]
+}

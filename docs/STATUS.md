@@ -1,6 +1,6 @@
 # Project status — canonical handoff
 
-**Last updated:** 2026-11-13
+**Last updated:** 2026-11-15
 **Repository:** https://github.com/earl2k22/prompt-to-agent-academy
 **Website (deployment reported successful by GitHub Actions):** https://earl2k22.github.io/prompt-to-agent-academy/
 **Latest successful deployment:** https://github.com/earl2k22/prompt-to-agent-academy/actions/runs/43360782439
@@ -35,3 +35,17 @@
 2. Select a single issue/stage (recommended: Issue #1, Stage 2).
 3. Implement a few full lesson articles per session, validate them and update statuses.
 4. Record tests and update this file.
+
+## Hallmark visual redesign — November 15, 2026
+
+Review branch: `design/hallmark-learning-workspace`. The existing six route types share Hallmark Dose styling with a curriculum index, working next-lesson panel, readable article typography and responsive navigation. Canonical content, publication statuses and progress keys are unchanged. Stage 2 remains the current content milestone.
+
+Verification observed locally:
+- `npm run build` passed content validation, TypeScript and the production Vite build.
+- Eight representative routes passed browser rendering at eight widths (320–1920px) without document overflow or JavaScript errors.
+- Search, filters, empty results, persisted bookmarks/completion, outline restrictions and mobile navigation passed browser regression checks.
+- Hallmark audit across all eight routes found no Floor failures. Confirmation after reader-measure adjustment: 0 Floor failures, 0 unwaived Reflex findings, 0 warnings; one gate waived for full source URLs wrapping on phones (49b).
+- Recorded preservation: 28/28 links, 9/9 handlers, 10/10 headings and 5/5 figures retained.
+- Visual review performed in-thread; before/after screenshots captured locally. No external image assets or new claims added.
+
+Production deployment has not been changed by this redesign. The existing GitHub Pages workflow deploys after merge to `main`. See [Hallmark redesign record](HALLMARK_REDESIGN.md) for affected files, copy adjustments and limits. Next task: review the design pull request, then continue the existing Stage 2 content work.
