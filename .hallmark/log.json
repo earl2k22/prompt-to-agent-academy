@@ -1,0 +1,31 @@
+[
+  {
+    "mode": "redesign",
+    "depth": "full",
+    "scope": "app",
+    "shape": "app screen",
+    "theme": "dose",
+    "axes": "light/grotesk-sans/chromatic-green",
+    "hero": "app overview",
+    "nav": "kept workspace sidebar",
+    "footer": "quiet source links",
+    "imagery": "none, existing educational content",
+    "photos": [],
+    "entry": "src/App.tsx",
+    "fingerprint": "dose-curriculum-index-next-lesson",
+    "sections": [
+      "overview",
+      "roadmap",
+      "lessons",
+      "glossary",
+      "development",
+      "lesson"
+    ],
+    "signature": "numbered curriculum index and live next lesson",
+    "waived": [
+      "49b"
+    ],
+    "prompt": "Redesign Prompt to Agent Academy using Hallmark, preserving course content and features",
+    "date": "2026-11-15"
+  }
+]
